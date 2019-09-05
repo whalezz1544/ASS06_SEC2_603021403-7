@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThreeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageBg"
+        android:layout_width="200dp"
+        android:layout_height="214dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nw" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="นางสาวทิพย์สุดา ลุนสำโรงี"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="603021203-5"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnClickFragThree"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="92dp"
+        android:text="GO BACK MY FRAGMENT " />
+
+</LinearLayout>
